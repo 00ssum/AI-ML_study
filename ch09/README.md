@@ -1,41 +1,13 @@
-Sebastian Raschka, 2017
+CH09
 
-Python Machine Learning - Code Examples
+# 학습된 사이킷런 추정기 저장
+- 모델 학습
+- 학습한 분류기 pickle파일로 저장
+- 저장된 모델 pickle파일 복원
 
-## Chapter 9 - Embedding a Machine Learning Model into a Web Application
-
-- Serializing fitted scikit-learn estimators
-- Setting up a SQLite database for data storage
-- Developing a web application with Flask
-- Our first Flask web application
-  - Form validation and rendering
-  - Turning the movie classifier into a web application
-- Deploying the web application to a public server
-  - Updating the movie review classifier
-- Summary
-
----
-
-The code for the Flask web applications can be found in the following directories:
-
-- `1st_flask_app_1/`: A simple Flask web app
-- `1st_flask_app_2/`: `1st_flask_app_1` extended with flexible form validation and rendering
-- `movieclassifier/`: The movie classifier embedded in a web application
-- `movieclassifier_with_update/`: same as `movieclassifier` but with update from sqlite database upon start
-
-
-To run the web applications locally, `cd` into the respective directory (as listed above) and execute the main-application script, for example,
-
-    cd ./1st_flask_app_1
-    python3 app.py
-
-Now, you should see something like
-
-     * Running on http://127.0.0.1:5000/
-     * Restarting with reloader
-
-in your terminal.
-Next, open a web browser and enter the address displayed in your terminal (typically http://127.0.0.1:5000/) to view the web application.
-
-
-**Link to a live example application built with this tutorial: http://raschkas.pythonanywhere.com/**.
+# 데이터 저장을 위한 SQLite 데베 설정
+- 데이터 베이스 생성
+- 사용을 위한 기본 셋팅
+  
+# 플라스크 웹 개발
+- 향후 공부후 내용 추가 예정
